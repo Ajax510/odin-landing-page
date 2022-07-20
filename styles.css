@@ -1,3 +1,29 @@
 body {
   font-family: "Roboto", sans-serif;
 }
+
+.header {
+  font-size: 24px;
+  display: flex;
+  font-weight: bolder;
+}
+
+.header-links {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.header,
+a {
+  color: #f9faf8;
+  background-color: #1f2937;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a {
+  font-size: 18px;
+}
