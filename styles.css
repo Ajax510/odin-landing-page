@@ -48,6 +48,13 @@ a {
   padding-bottom: 80px;
   gap: 80px;
   padding-top: 80px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.section-1-content {
+  display: flex;
+  justify-content: space-between;
 }
 
 .left-side {
@@ -73,7 +80,8 @@ a {
 /* section-2 */
 .section-2 {
   display: flex;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: center;
   align-content: center;
   padding: 80px;
 }
@@ -96,7 +104,8 @@ h2 {
 .cards-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
+  gap: 50px;
 }
 
 .cards {
@@ -114,8 +123,55 @@ h2 {
 }
 
 /* section-3 */
+.section-3 {
+  background-color: #e5e7eb;
+  padding: 80px;
+}
 
+.section-3-content {
+  margin: 40px 70px;
+}
+
+.quote {
+  color: #1f2937;
+  font-size: 36px;
+  font-style: italic;
+}
+
+.figcaption {
+  font-weight: 900;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 27px;
+}
 /* section-4 */
+.call-to-action {
+  background-color: #3882f6;
+  color: white;
+  padding: 40px;
+  margin: 80px;
+  border-radius: 10px;
+}
+
+.square-left {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.square-right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.section-4-button {
+  background-color: #3882f6;
+  color: white;
+  border: white 2px solid;
+  width: fit-content;
+  padding: 10px 30px;
+  border-radius: 10px;
+  font-weight: bold;
+}
 
 /* footer */
 footer {
